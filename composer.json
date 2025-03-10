@@ -1,0 +1,14 @@
+{
+    "name": "hudaAlfarizi/payment-gateway-manager",
+    "description": "Library untuk mengelola berbagai payment gateway di Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PaymentGatewayManager\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
