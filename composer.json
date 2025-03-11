@@ -9,6 +9,8 @@
         }
     },
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "midtrans/midtrans-php": "^2.6",
+        "xendit/xendit-php": "^2.4"
     }
 }
