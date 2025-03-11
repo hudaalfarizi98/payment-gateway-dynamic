@@ -29,6 +29,11 @@ class PaymentGatewayManager
         return $this->provider->createTransaction($data);
     }
 
+    public function createPaymentLink(array $data)
+    {
+        return $this->provider->createPaymentLink($data);
+    }
+
     public function handleCallback(array $request)
     {
         return $this->provider->handleCallback($request);
