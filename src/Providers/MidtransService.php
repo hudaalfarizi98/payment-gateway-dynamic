@@ -32,7 +32,7 @@ class MidtransService implements PaymentGatewayInterface
             ? "https://api.midtrans.com/v1/payment-links"
             : "https://api.sandbox.midtrans.com/v1/payment-links";
 
-        $serverKey = $this->config['secret_key'];
+        $serverKey = $this->config['server_key'];
         $headers = [
             "Authorization: Basic " . base64_encode($serverKey . ":"),
             "Content-Type: application/json",
